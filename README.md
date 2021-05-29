@@ -24,9 +24,11 @@ The system requirement is as follows:
 In order to train a custom face mask detector, the project is divided into 2 distinct phases, each with its own respective sub-steps
 
 PHASES 
-- Training
+- Training:
 Datasets are loaded from disk to face mask detection which will be used to train a model using Keras/TensorFlow on these datasets, and then serializing the face mask detector to disk.
 
-- Deployment
+- Deployment:
 Once the face mask detector is trained, the mask detector will load and perform the face detection which then be classified each face as with_mask or without_mask. 
 
+# Result Analysis
+![image](https://user-images.githubusercontent.com/43489693/120084609-38171980-c104-11eb-8498-f915ba7326fd.png)
