@@ -30,5 +30,16 @@ Datasets are loaded from disk to face mask detection which will be used to train
 - Deployment:
 Once the face mask detector is trained, the mask detector will load and perform the face detection which then be classified each face as with_mask or without_mask. 
 
+Next, implement three Python scripts as following:
+- **train_mask_detector.py**
+-- 	Accepts the input dataset and finetunes MobileNetV2 upon it to create our mask_detector.model. A training history plot.png containing accuracy/loss curves is also produced.
+ 
+- **detect_mask_image.py**
+--	Perform face mask detection in static images.
+
+-**detect_mask_video.py**
+--	The script applies face mask detection to every frame in the stream.
+
+
 # Result Analysis
 ![image](https://user-images.githubusercontent.com/43489693/120084609-38171980-c104-11eb-8498-f915ba7326fd.png)
