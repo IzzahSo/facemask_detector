@@ -37,7 +37,7 @@ Next, implement three Python scripts as following:
 - **detect_mask_image.py**
 --	Perform face mask detection in static images.
 
--**detect_mask_video.py**
+- **detect_mask_video.py**
 --	The script applies face mask detection to every frame in the stream.
 
 
