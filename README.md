@@ -12,13 +12,13 @@ Retrieved here: https://drive.google.com/drive/folders/1tMNKupUjDAJh7hpW_J3x49AD
 
 # System Requirements
 The system requirement is as follows:
-tensorflow >= 1.15.2
-keras == 2.3.1
-imutils == 0.5.3
-numpy == 1.18.2
-opencv-python ==  4.2.0.*
-matplotlib == 3.2.1
-scipy == 1.4.1
+- tensorflow >= 1.15.2
+- keras == 2.3.1
+- imutils == 0.5.3
+- numpy == 1.18.2
+- opencv-python ==  4.2.0.*
+- matplotlib == 3.2.1
+- scipy == 1.4.1
 
 # System Design
 In order to train a custom face mask detector, the project is divided into 2 distinct phases, each with its own respective sub-steps
